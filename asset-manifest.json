@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bchawit/static/css/main.819ae213.css",
-    "main.js": "/bchawit/static/js/main.2cfa8e22.js",
+    "main.js": "/bchawit/static/js/main.41d8f12c.js",
     "static/media/TSAJ.png": "/bchawit/static/media/TSAJ.d1192a946bd1983cb355.png",
     "static/media/inspirer.png": "/bchawit/static/media/inspirer.c3ab6a709613e8197e67.png",
     "static/media/bitcoin.jpg": "/bchawit/static/media/bitcoin.c08262f1f47ab9598653.jpg",
@@ -27,10 +27,10 @@
     "static/media/coursera.jpg": "/bchawit/static/media/coursera.f4ab8404f8b542bf1bbe.jpg",
     "index.html": "/bchawit/index.html",
     "main.819ae213.css.map": "/bchawit/static/css/main.819ae213.css.map",
-    "main.2cfa8e22.js.map": "/bchawit/static/js/main.2cfa8e22.js.map"
+    "main.41d8f12c.js.map": "/bchawit/static/js/main.41d8f12c.js.map"
   },
   "entrypoints": [
     "static/css/main.819ae213.css",
-    "static/js/main.2cfa8e22.js"
+    "static/js/main.41d8f12c.js"
   ]
 }
