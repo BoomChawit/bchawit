@@ -14,7 +14,7 @@ const Home = () => {
               <span>B </span>
               <span>O </span>
               <span>O </span>
-              <span>M </span> 
+              <span>M </span>
             </div>
             <div className="dev_title_last">
               <span>C </span>

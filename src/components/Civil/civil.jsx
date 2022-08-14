@@ -21,31 +21,31 @@ const Civil = () => {
 
                 <div className="civil_box">
                     <div className="civil_name">
-                        Physics-Informed Neural Network in Virtual-Axle Bridge Weigh-In-Motion for Damage Detection in Structural Health Monitoring
+                        Drive-by Inspection: Fourier Neural Operator for Damage Detection (In progress)
                     </div>
                     <div className="civil_skill">
-                        VA, B-WIM, SHM, PINN
+                        SHM, FNO
                     </div>
                     <div className="civil_prof">
-                        Professor Kim
+                        Professor Kim, Dr Jiaji Wang
                     </div>
                     <div className="civil_period">
-                        May - August 2022
+                        August 2022 - Present
                     </div>
                 </div>
 
                 <div className="civil_box">
                     <div className="civil_name">
-                        Investigations of Damage Index by Classification and Clustering Methods and Machine Learning Translations
+                        Machine Learnings in Damage Detection (In progress)
                     </div>
                     <div className="civil_skill">
-                        Damage Detection, Clustering
+                        VBI, MLP, SVM, DT
                     </div>
                     <div className="civil_prof">
                         Professor Kim
                     </div>
                     <div className="civil_period">
-                        July - October 2022
+                        June 2022 - Present
                     </div>
                 </div>
             </div>
@@ -53,6 +53,21 @@ const Civil = () => {
             <h2>Experiences</h2>
 
             <div className="civil_column">
+
+                <div className="civil_box">
+                    <div className="civil_name">
+                        Civil Engineer Intern
+                    </div>
+                    <div className="civil_skill">
+                        
+                    </div>
+                    <div className="civil_prof">
+                        NiX Co., Ltd.
+                    </div>
+                    <div className="civil_period">
+                        Aug - Sep 2022
+                    </div>
+                </div>
 
                 <div className="civil_box">
                     <div className="civil_name">
@@ -65,24 +80,10 @@ const Civil = () => {
                        Asst. Prof. Payom Ratanamanee, Prince of Songkhla University
                     </div>
                     <div className="civil_period">
-                        Mar - Apr 2021
+                        Mar - Apr 2020
                     </div>
                 </div>
 
-                <div className="civil_box">
-                    <div className="civil_name">
-                        Structural Engineer Intern (Bridge)
-                    </div>
-                    <div className="civil_skill">
-                        
-                    </div>
-                    <div className="civil_prof">
-                        NiX Co., Ltd.
-                    </div>
-                    <div className="civil_period">
-                        Aug - Sep 2022
-                    </div>
-                </div>
             </div>
 
             <h2>Skils</h2>

@@ -44,7 +44,7 @@ const Aicomp = () => {
                     Gain knowledge on cutting-edge NLP models: Attention, Transformer, Bert.
                   </div>
                   
-                  <div className="aicomp_experience_prof">Big Data, Thailand Development Research Institute</div>
+                  <div className="aicomp_experience_place">Big Data, Thailand Development Research Institute</div>
                   <div className="aicomp_experience_period">July - Aug 2021</div>
                 </div>
 
@@ -54,8 +54,8 @@ const Aicomp = () => {
                     Helped conducting a research on Data-driven drug discovery for human GPCRs by data mining and machine learning.
                     Gained software development experience in Python, Visual studio code and Git
                   </div>
-                  <div className="aicomp_experience_prof">Vidyasirimedhi Institute of Science and Technology</div>
-                  <div className="aicomp_experience_period">Aug - Sep 2022</div>
+                  <div className="aicomp_experience_place">Vidyasirimedhi Institute of Science and Technology</div>
+                  <div className="aicomp_experience_period">Aug - Sep 2019</div>
                 </div>
             </div>
 

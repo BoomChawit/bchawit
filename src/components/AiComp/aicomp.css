@@ -48,11 +48,13 @@
     transition: var(--transition);
 }
 
-.aicomp_experience_prof {
+.aicomp_experience_place {
     position: absolute;
     bottom: 1.5rem;
     left: 1rem;
     font-size: 8pt;
+    width: 50%;
+    line-height: 0.8rem;
 }
 
 .aicomp_experience_box .aicomp_experience_period {
@@ -337,6 +339,8 @@
     position: absolute;
     padding: 1rem;
     bottom: 0;
+    width: 70%;
+    line-height: 1rem;
 
     text-align: left;
     font-size: 10pt;
@@ -392,6 +396,18 @@
 
 /* =========== MEDIA QUERIES (SMALL DEVICE) ======= */
 @media screen and (max-width: 600px) {
+
+    .aicomp_experience {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        height: 100%;
+    }
+
+    .aicomp_experience_box {
+        height: 15rem;
+    }
+
     
     .aicomp_courses {
         margin-bottom: 16rem;
@@ -447,4 +463,13 @@
         font-weight: 400;
     }
 
+    .aicomp_project_skills{
+        padding-left: 0.5rem;
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+
+    .aicomp_project_link {
+        font-size: 0.6rem;
+    }
 }
