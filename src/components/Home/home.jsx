@@ -36,7 +36,7 @@ const Home = () => {
                 <li class="dev__container__list__item"> Student !</li>
                 <li class="dev__container__list__item"> Civil Engineer !</li>
                 <li class="dev__container__list__item"> Data Scientist !</li>
-                <li class="dev__container__list__item"> Developer !</li>
+                <li class="dev__container__list__item"> Software Engineer !</li>
               </ul>
               
             </div>
@@ -45,7 +45,8 @@ const Home = () => {
           <div className="dev_terminal">
             <div id="terminal-1" className="terminal">
               <span className="standard">BoomChawit@current:~ </span>
-              <span className="type">NLP Intern, Big Data Team, TDRI</span>
+              {/* <span className="type">NLP Intern, Big Data Team, TDRI</span> */}
+              <span className="type">SE (WebTech) Intern at SmartNews</span>
               <span className="blink">_</span>
             </div>
           </div>

@@ -101,10 +101,10 @@ span.blink {
 span.type { 
   overflow: hidden; 
   height: 17px;
-  width: 32ch;
+  width: 33ch;
   display: inline-block; 
-  animation: type 6s steps(32, end) infinite alternate;
-  -webkit-animation: type 6s steps(32,end) infinite alternate;
+  animation: type 6s steps(33, end) infinite alternate;
+  -webkit-animation: type 6s steps(33,end) infinite alternate;
   white-space: nowrap;
 }
 
