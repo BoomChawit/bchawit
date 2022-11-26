@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bchawit/static/css/main.960304bf.css",
-    "main.js": "/bchawit/static/js/main.67ddc310.js",
+    "main.css": "/bchawit/static/css/main.2294996e.css",
+    "main.js": "/bchawit/static/js/main.e827e3a8.js",
     "static/media/TSAJ.png": "/bchawit/static/media/TSAJ.d1192a946bd1983cb355.png",
     "static/media/inspirer.png": "/bchawit/static/media/inspirer.c3ab6a709613e8197e67.png",
     "static/media/bitcoin.jpg": "/bchawit/static/media/bitcoin.c08262f1f47ab9598653.jpg",
@@ -26,11 +26,11 @@
     "static/media/CS50.jpg": "/bchawit/static/media/CS50.a1f766dad50137a597f5.jpg",
     "static/media/coursera.jpg": "/bchawit/static/media/coursera.f4ab8404f8b542bf1bbe.jpg",
     "index.html": "/bchawit/index.html",
-    "main.960304bf.css.map": "/bchawit/static/css/main.960304bf.css.map",
-    "main.67ddc310.js.map": "/bchawit/static/js/main.67ddc310.js.map"
+    "main.2294996e.css.map": "/bchawit/static/css/main.2294996e.css.map",
+    "main.e827e3a8.js.map": "/bchawit/static/js/main.e827e3a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.960304bf.css",
-    "static/js/main.67ddc310.js"
+    "static/css/main.2294996e.css",
+    "static/js/main.e827e3a8.js"
   ]
 }
