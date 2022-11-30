@@ -1,0 +1,161 @@
+.extraexp {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 0.5rem;
+    height: 28rem;
+}
+
+.extraexp_card {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    opacity: 0;
+    transition: var(--transition);
+    background: rgb(0, 0, 0, 0.2);
+    padding: 5rem;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.extraexp_place {
+    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 12pt;
+    
+    color: var(--color-white);
+    text-align: left;
+    transition: var(--transition);
+}
+
+.extraexp_place:hover {
+    background: rgb(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.extraexp_place.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.extraexp div.active {
+    opacity: 1;
+}
+
+.extraexp_detail ul li {
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.extraexp_detail ul li::before {
+    content: "► \00a0\00a0\00a0";
+    margin-left: -2rem;
+    color: var(--color-primary);
+}
+
+.highschool_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.highschool_box {
+    position: relative;
+    flex: 50%;
+    grid-column-gap: 2rem;
+    height: 13rem;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    display: table;
+}
+
+.highschool_name {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    transition: var(--transition);
+}
+
+.highschool_name:hover {
+    color: var(--color-primary);
+}
+
+.highschool_topic {
+    padding-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: var(--transition-slow);
+}
+
+.highschool_topic span {
+    display: table;
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+.highschool_topic span:hover {
+    font-weight: 500;
+}
+
+.highschool_skills {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    font-size: 8pt;
+}
+
+.highschool_skills span {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.highschool_skills span:hover {
+    color: var(--color-primary);
+    transform: translateY(-10px);
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICE) ======= */
+@media screen and (max-width: 1024px) {
+
+    .highschool_name {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICE) ======= */
+@media screen and (max-width: 600px) {
+
+    .extraexp_card {
+        padding: 2rem;
+    }
+
+    .highschool_column {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .extraexp_place {
+        font-size: 11pt; 
+    }
+
+    .highschool_name {
+        font-size: 11pt;
+        line-height: 1.4;
+    }
+
+    .highschool_topic span {
+        font-size: 8pt;
+    }
+
+    .highschool_skills {
+        font-size: 7pt;
+    }
+}

@@ -1,0 +1,201 @@
+.civil_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.civil_box {
+    position: relative;
+    flex: 50%;
+    grid-column-gap: 2rem;
+    height: 13rem;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    display: table;
+    transition: transform 0.5s ease; 
+}
+
+.civil_box:hover {
+    transform: translateY(-10px);
+}
+
+.civil_box:hover .civil_name{
+    color: var(--color-primary);
+}
+
+.civil_name {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    transition: var(--transition);
+}
+
+.civil_skill {
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.civil_subskills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0rem;
+    padding-top: 2rem;
+}
+
+.civil_prof {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    font-size: 8pt;
+    width: 50%;
+}
+
+.civil_box .civil_period {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    font-size: 8pt;
+}
+
+.civil_compete_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.civil_box2 {
+    position: relative;
+    flex: 50%;
+    grid-column-gap: 2rem;
+    height: 13rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    display: table;
+    transition: var(--transition);
+}
+
+.civil_box2:hover{
+    border: 3pt solid var(--color-primary);
+    background-color: var(--color-bg-variant);
+    color: var(--color-primary);
+}
+
+.civil_compete_box {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 1rem;
+}
+
+.compete_prize {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+.compete_name {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.civil_box2:hover .competition_pop_card {
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+
+.competition_pop_card {
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    height: 80%;
+    width: 80%;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 2;
+    backdrop-filter: blur(15px);
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    padding: 5rem;
+    line-height: 1.5;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.competition_pop_award {
+    font-size: 30pt;
+    font-weight: 800;
+}
+
+.competition_pop_name {
+    font-size: 16pt;
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+.competition_pop_highlight {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    width: 55%;
+    font-size: 13pt;
+}
+
+.competition_pop_describe {
+    width: 55%;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICE) ======= */
+@media screen and (max-width: 1024px) {
+    .civil_name {
+        font-size: 1rem;
+        line-height: 1.4em;
+        margin-bottom: 0.8rem;
+    }
+    
+    .civil_skill {
+        font-size: 0.9rem;
+    }
+    
+    .civil_subskills {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .civil_compete_column {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .civil_compete_box {
+        padding: 1.5rem;
+    }
+
+    .compete_prize {
+        font-size: 1rem;
+    }
+    
+    .compete_name {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICE) ======= */
+@media screen and (max-width: 600px) {
+    .civil_column {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .civil_compete_column {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}

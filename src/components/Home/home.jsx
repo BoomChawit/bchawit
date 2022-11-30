@@ -36,7 +36,7 @@ const Home = () => {
                 <li class="dev__container__list__item"> Student !</li>
                 <li class="dev__container__list__item"> Civil Engineer !</li>
                 <li class="dev__container__list__item"> Data Scientist !</li>
-                <li class="dev__container__list__item"> Software Engineer !</li>
+                <li class="dev__container__list__item"> Developer !</li>
               </ul>
               
             </div>

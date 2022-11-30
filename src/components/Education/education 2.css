@@ -1,0 +1,257 @@
+.education {
+    position: relative;
+}
+
+.education_place {
+    
+    color: var(--color-primary);
+    font-size: 14pt;
+}
+
+.education_place::before{
+    content: "\00a0 @";
+}
+
+.education_level {
+    width: 15rem;
+    background: rgb(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 12pt;
+    
+    color: var(--color-white);
+    text-align: left;
+    transition: var(--transition);
+}
+
+.education_level:hover {
+    background: rgb(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.education_level.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.education_box div {
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    width: 36rem;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.education div.active {
+    opacity: 1;
+}
+
+.education_detail ul li {
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.education_detail ul li::before {
+    content: "► \00a0\00a0\00a0";
+    margin-left: -2rem;
+    color: var(--color-primary);
+}
+
+.academic {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2rem;
+}
+
+.academic_box {
+    position: relative;
+    flex: 50%;
+    display: table;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.academic_image1 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/tribe.jpg);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image2 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/pm.jpg);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image3 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/oxford.png);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image4 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/isef.jpg);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image5 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/idea.jpg);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image6 {
+    z-index: 2;
+    opacity: .7;
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url( ../../assets/bio.jpg);
+    background-size: cover;
+    background-position: top;
+    transition: var(--transition-slow);
+}
+
+.academic_image1:hover,
+.academic_image2:hover,
+.academic_image3:hover,
+.academic_image4:hover,
+.academic_image5:hover,
+.academic_image6:hover
+{
+    opacity: 1;
+    background-position: center;
+}
+
+.academic_award {
+    font-size: 14pt;
+    font-weight: 700;
+    opacity: 1;
+    color: #fff;
+}
+
+.academic_name {
+    font-size: 10pt;
+    color: #fff;
+}
+
+.academic_box_card {
+    position: relative;
+    padding: 1rem;
+    opacity: 1;
+    line-height: 1.4;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    transition: var(--transition);
+}
+
+.academic_box_card:hover {
+    color: var(--color-primary);
+    opacity: 0.8;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICE) ======= */
+@media screen and (max-width: 1024px) {
+
+    .education_level {
+        width: 10rem;
+        font-weight: 600;
+        font-size: 11pt;
+    }
+
+    .education_box div {
+        left: 27%;
+        width: 72%;
+    }
+
+    .education_detail ul li {
+        font-size: 11pt;
+        line-height: 1.5;
+    }
+    
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICE) ======= */
+@media screen and (max-width: 600px) {
+
+    .education {
+        height: 25rem;
+    }
+
+    .education_level {
+        width: 100%;
+        font-weight: 600;
+        font-size: 11pt;
+    }
+
+    .education_box div {
+        top: 13rem;
+        left: 0%;
+        width: 100%;
+    }
+
+    .education_detail ul li {
+        font-size: 10pt;
+        line-height: 1.5;
+    }
+
+    .academic {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .academic_box {
+        height: 15rem;
+    }
+
+    .academic_award {
+        font-size: 10pt;
+    }
+    
+    .academic_name {
+        font-size: 7pt;
+    }
+
+}
